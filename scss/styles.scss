@@ -56,4 +56,32 @@ body {
       }
     }
   }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+      background-color: #9ca3af;
+    }
+    tbody tr:nth-child(odd) {
+      background-color: #d1d5db;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #e5e7eb;
+    }
+    th:nth-child(1) {
+      width: 70px;
+    }
+    th,
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+    td:nth-child(1) {
+      padding: 5px;
+    }
+
+  }
+
 }
